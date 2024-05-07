@@ -31,7 +31,7 @@ const Hero = () => {
             </motion.h1>
             <motion.span
               whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 1 }}
+              whileTap={{ scale: 0.9 }}
               initial="initial"
               animate="animate"
               variants={variants(0.2, -100)}

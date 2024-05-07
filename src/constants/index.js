@@ -5,7 +5,7 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I'm a dedicated front-end developer with expertise in building captivating user interfaces using React.js. With 2 years of experience in web development, I've honed my skills to deliver high-quality solutions that meet clients' needs and exceed expectations.`;
 
-export const ABOUT_TEXT = `Hello! I'm Ali, a passionate frontend developer with a love for creating beautiful and user-friendly interfaces. Programming for me not a hobby or a job neither, it's a jobby. I have experience working with technologies like React, Tailwind CSS, and Framer Motion, Redux which I use to craft engaging web experiences.
+export const ABOUT_TEXT = `Hello! I'm Ali, a passionate frontend developer with a love for creating beautiful and user-friendly interfaces. Programming for me not a hobby or a job neither, it's a jobby. I have experience working with technologies like React, Tailwind CSS, Bootstrap, React-Router-Dom, Redux Toolkit and Framer Motion, which I use to craft engaging web experiences.
 My journey in web development started from being a tech lover in my childhood (a nerd you could say.) Since then, I've been honing my skills and exploring new trends in the ever-evolving tech landscape.
 When I'm not coding, you can find me playing video games, (trying to 'git gud' in dark souls series). I believe in continuous learning and strive to stay updated with the latest tools and techniques to deliver high-quality solutions.
 Feel free to explore my portfolio and reach out if you'd like to collaborate or have any questions!
