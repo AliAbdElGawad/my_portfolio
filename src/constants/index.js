@@ -77,7 +77,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["Tailwind css", "React"],
+    technologies: ["Tailwind css", "React", "Framer Motion"],
     id: 3,
   },
   {
@@ -95,7 +95,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Egypt Zgazig Abo Kaber",
+  // phoneNo: "+12 4555 666 00 ",
+  email: "ali1531999@gmail.com",
 };
