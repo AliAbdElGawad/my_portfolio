@@ -7,3 +7,9 @@
 :root {
   font-family: 'Inter', sans-serif;
 }
+
+@layer base {
+  .skills-icons {
+    @apply p-4 border-4 rounded-2xl border-neutral-800
+  }
+}

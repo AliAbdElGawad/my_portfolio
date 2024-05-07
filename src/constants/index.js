@@ -3,38 +3,52 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I'm Ali, a dedicated frontend developer with expertise in building captivating user interfaces using React.js. With 2 years of experience in web development, I've honed my skills to deliver high-quality solutions that meet clients' needs and exceed expectations.`;
+export const HERO_CONTENT = `I'm a dedicated front-end developer with expertise in building captivating user interfaces using React.js. With 2 years of experience in web development, I've honed my skills to deliver high-quality solutions that meet clients' needs and exceed expectations.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `Hello! I'm Ali, a passionate frontend developer with a love for creating beautiful and user-friendly interfaces. Programming for me not a hobby or a job neither, it's a jobby. I have experience working with technologies like React, Tailwind CSS, and Framer Motion, Redux which I use to craft engaging web experiences.
+My journey in web development started from being a tech lover in my childhood (a nerd you could say.) Since then, I've been honing my skills and exploring new trends in the ever-evolving tech landscape.
+When I'm not coding, you can find me playing video games, (trying to 'git gud' in dark souls series). I believe in continuous learning and strive to stay updated with the latest tools and techniques to deliver high-quality solutions.
+Feel free to explore my portfolio and reach out if you'd like to collaborate or have any questions!
+`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    description: `fully functional e-commerce website using React.js, Context API for state management, and styled-components for styling. The project was structured following best practices to ensure scalability and maintainability. Implemented a dynamic product catalog with categories and filtering options for a seamless shopping experience. Integrated a responsive shopping cart that allows users to add, remove, and update items in real-time.  Implemented user authentication and authorization features, including login, registration, and user-specific functionalities.`,
+    role: "frontend developer, designer",
+    technologies: [
+      "Context API",
+      "React.js",
+      "Styled-components",
+      "React-router-dom",
+    ],
+    keyLearnings: "state management, component lifecycle, routing",
+    id: 1,
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    description: `dynamic dashboard using React.js and Tailwind CSS, enriched with data visualization capabilities powered by Tremor.so. The project was meticulously structured to ensure efficient data management, visual clarity, and a responsive user interface. Integrated Tremor.so to create interactive and visually appealing charts, graphs, and data representations that provide insights at a glance. Designed a modular dashboard layout with customizable components such as widgets, cards, and tables for displaying diverse data sets.`,
+    role: "frontend developer, designer",
+    technologies: ["React.js", "Tailwind css"],
+    keyLearnings: [
+      "interactive user interfaces",
+      "state management",
+      "integrating third-party libraries",
+    ],
+    id: 2,
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    description: `Brainwave is a captivating website dedicated to exploring the fascinating world of AI (Artificial Intelligence). Leveraging the power of React.js with Tailwind CSS, react-just-parallax, and react-router-dom, this project aims to educate and engage visitors with immersive content and interactive elements. Employed React.js for its component-based architecture, enabling the creation of interactive and dynamic user interfaces with reusable components. Utilized Tailwind CSS for efficient and customizable styling, ensuring a modern and consistent design throughout the website.`,
+    role: "frontend developer, designer",
+    technologies: [
+      "React.js",
+      "Tailwind css",
+      "React-router-dom",
+      "react-just-parallax",
+    ],
+    keyLearnings: [
+      "integrating third-party libraries",
+      "managing stateful components.",
+    ],
+    id: 3,
   },
 ];
 
@@ -42,30 +56,41 @@ export const PROJECTS = [
   {
     title: "E-Commerce Website",
     image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    description: `fully functional e-commerce website using React.js, Context API for state management, and styled-components for styling. The project was structured following best practices to ensure scalability and maintainability. Implemented a dynamic product catalog with categories and filtering options for a seamless shopping experience. Integrated a responsive shopping cart that allows users to add, remove, and update items in real-time.  Implemented user authentication and authorization features, including login, registration, and user-specific functionalities.`,
+    technologies: [
+      "Context API",
+      "React.js",
+      "Styled-components",
+      "React-router-dom",
+    ],
+    id: 1,
   },
   {
-    title: "Task Management App",
+    title: "Dashboard UI",
     image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    description: `dynamic dashboard using React.js and Tailwind CSS, enriched with data visualization capabilities powered by Tremor.so. The project was meticulously structured to ensure efficient data management, visual clarity, and a responsive user interface. Integrated Tremor.so to create interactive and visually appealing charts, graphs, and data representations that provide insights at a glance. Designed a modular dashboard layout with customizable components such as widgets, cards, and tables for displaying diverse data sets.`,
+    technologies: ["React.js", "Tailwind css"],
+    id: 2,
   },
   {
-    title: "Portfolio Website",
+    title: "Portfolio",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["Tailwind css", "React"],
+    id: 3,
   },
   {
-    title: "Blogging Platform",
+    title: "Brainwave",
+    description: `Brainwave is a captivating website dedicated to exploring the fascinating world of AI (Artificial Intelligence). Leveraging the power of React.js with Tailwind CSS, react-just-parallax, and react-router-dom, this project aims to educate and engage visitors with immersive content and interactive elements. Employed React.js for its component-based architecture, enabling the creation of interactive and dynamic user interfaces with reusable components. Utilized Tailwind CSS for efficient and customizable styling, ensuring a modern and consistent design throughout the website.`,
     image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: [
+      "React.js",
+      "Tailwind css",
+      "React-router-dom",
+      "react-just-parallax",
+    ],
+    id: 4,
   },
 ];
 
